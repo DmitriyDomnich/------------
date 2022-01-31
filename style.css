@@ -105,13 +105,9 @@ aside#passageWrapper {
 
 #stop2 {
   margin-left: 25%;
-  top: 5rem !important;
-  position: sticky !important;
-  z-index: 1 !important;
 }
 #stop3 {
   margin-left: 50%;
-  top: 5rem;
 }
 #stop4 {
   margin-left: 75%;
@@ -273,10 +269,8 @@ main {
   margin-top: 2em;
 }
 #accordeon input {
-  
   height: 0;
   width: 0;
-
 }
 #accordeon input:checked+label {
   background-color: red;
@@ -410,7 +404,6 @@ label .square {
   content: 'Register to ask us questions';
   position: relative;
   font-size: 2em;
-
 }
 main>form::after {
   position: absolute;
@@ -483,7 +476,6 @@ footer {
   .slides button {
     font-size: small;
   }
-  
 }
 @media (min-width: 1500px) {
   .carousel-images img {
