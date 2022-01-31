@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><img
+            src="data:image/png;base64,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">
+        </li>
+        <li><a href="#who-we-are">Who we are</a></li>
+        <li><a href="#what-can-we-do">What can we do</a></li>
+        <li><a href="#our-contacts">Our contacts</a></li>
+        <li>Domnich Photographycs</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="header-like"></div>
+  <aside id="passageWrapper">
+    <div id="passage"></div>
+  </aside>
+
+  <section>
+    <div class="slides">
+      <div class="carousel-images">
+        <span id="carousel-start"></span>
+        <!--first-->
+        <a id="small_1_start" class="small-5" href="#carousel-end"><button class="previous">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1592652176801-be9972428c69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+        <a id="small_1_end" class="small-2" href="#second-helper-end"><button class="next"> > </button></a>
+
+        <!--second-->
+        <span id="second-helper-start"></span>
+        <a id="small_2_start" class="small-1" href="#carousel-start"><button class="previous">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1643041447984-ff891bdf0815?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+        <a id="small_2_end" class="small-3" href="#third-helper-end"><button class="next"> > </button></a>
+        <a id="medium_2_end" class="small-3" href="#fourth-helper-end"><button class="next"> > </button></a>
+        <span id="second-helper-end"></span>
+
+        <!--third-->
+        <span id="third-helper-start"></span>
+        <a id="small_3_start" class="small-2" href="#second-helper-start"><button class="previous">
+            < </button></a>
+        <a id="medium_3_start" class="small-3" href="#carousel-start"><button class="next">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1643144890122-a5b454d64681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+        <a id="small_3_end" class="small-4" href="#fourth-helper-end"><button class="next"> > </button></a>
+        <a id="large_3_end" href="#carousel-end"><button class="next"> > </button></a>
+        <span id="third-helper-end"></span>
+
+        <!--fourth-->
+        <span id="fourth-helper-start"></span>
+        <a id="large_4_start" href="#carousel-start"><button class="next">
+            < </button></a>
+        <a id="small_4_start" class="small-3" href="#third-helper-start"><button class="previous">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1642866737560-de49d329a3f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+        <a id="small_4_end" class="small-5" href="#fifth-helper-end"><button class="previous"> > </button></a>
+        <a id="medium_4_end" class="small-3" href="#carousel-end"><button class="next"> > </button></a>
+        <span id="fourth-helper-end"></span>
+        <!--fifth-->
+        <span id="fifth-helper-start"></span>
+        <a id="medium_5_start" class="small-3" href="#third-helper-start"><button class="next">
+            < </button></a>
+        <a id="small_5_start" class="small-4" href="#fourth-helper-start"><button class="previous">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1642749744303-eeba5f11e771?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80">
+        <a id="small_5_end" class="small-1" href="#carousel-end"><button class="previous"> > </button></a>
+        <span id="fifth-helper-end"></span>
+
+        <!--sixth-->
+        <a id="small_6_start" class="small-4" href="#fifth-helper-start"><button class="previous">
+            < </button></a>
+        <img
+          src="https://images.unsplash.com/photo-1566721869209-a8d7e01e0e8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80">
+        <a id="small_6_end" class="small-1" href="#carousel-start"><button class="previous"> > </button></a>
+
+        <span id="carousel-end"></span>
+      </div>
+    </div>
+  </section>
+  <div class="stops"></div>
+
+  <main>
+    <h2 id="who-we-are" style="margin-top: -.625em;" class="heading">Who we are</h2>
+    <div class="heading-info">
+      <img
+        src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1458&q=80">
+      <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid, eaque explicabo ea possimus corporis
+        molestiae laboriosam blanditiis perspiciatis earum voluptatibus odit rem placeat consequuntur aut molestias
+        dolorem ducimus fugit, sequi soluta ad. Quae, quisquam vitae sapiente cumque quo, sunt magnam ullam quasi fugiat
+        illo omnis minus ea dolorum. Debitis quam facilis modi. Dolorem eius ducimus aliquam animi inventore eaque quo
+        numquam optio itaque aperiam reiciendis, temporibus autem adipisci quidem officiis quas quaerat explicabo
+        officia et. Doloribus odio possimus veritatis. Autem ipsam, expedita quasi vero magnam dolorem quidem
+        reprehenderit architecto distinctio nisi officiis in, fugit cupiditate enim nulla, quod saepe.
+      </article>
+      <div class="clearfix"></div>
+    </div>
+    <div class="stops" id="stop2"></div>
+    <div class="heading-info">
+      <img class="right-float"
+        src="https://images.unsplash.com/photo-1438109491414-7198515b166b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+      <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolores pariatur libero eligendi minus
+        suscipit magni distinctio mollitia ipsa temporibus laboriosam, quasi fugit voluptatem optio assumenda nam rerum,
+        expedita id? Repellendus debitis similique, laborum aperiam, laboriosam iste tempore consectetur corporis veniam
+        vero cum voluptas dignissimos numquam aut dolorum eius repellat! Accusamus in iste temporibus ut repellendus
+        ducimus sunt assumenda, voluptatibus nostrum ad, molestiae corporis esse tenetur non molestias vel sequi natus
+        fugiat labore recusandae. Assumenda amet aliquid at porro omnis non voluptatem fugit corporis eos consequuntur
+        recusandae, quidem reiciendis nisi numquam eligendi quia beatae, corrupti ab neque. Dignissimos, et quod!
+      </article>
+      <div class="clearfix"></div>
+    </div>
+    <h2 id="what-can-we-do" class="heading">What can we do</h2>
+
+    <div class="lists-container">
+      <div class="list">
+        <h3>We offer:</h3>
+        <ul>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, error!</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quos earum!</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum harum quas.</li>
+          <li>Lorem ipsum dolor sit.</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h3>You get:</h3>
+        <ul>
+          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel!</li>
+          <li>Repellendus debitis similique, laborum aperiam, laboriosam iste tempore consectetur corporis veniam.</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quos earum!</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum harum quas minus quasi quae.</li>
+          <li>Voluptatum temporibus ut voluptatibus praesentium totam voluptas eligendi voluptate dicta, architecto nam!
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="stops" id="stop3"></div>
+
+    <div class="clearfix"></div>
+    <h2 id="our-contacts" class="heading">Our contacts</h2>
+    <div class="stops" id="stop4"></div>
+    <div id="accordeon">
+      <form>
+        <input type="radio" name="accordeon" id="1_acc">
+        <label for="1_acc">
+          <aside></aside>
+          <div class="square"></div>
+        </label>
+
+        <input type="radio" name="accordeon" id="2_acc">
+        <label for="2_acc">
+          <aside></aside>
+          <div class="square"></div>
+        </label>
+
+        <input type="radio" checked name="accordeon" id="3_acc">
+        <label for="3_acc">
+          <aside>
+            <span>Lorem, ipsum.</span>
+          </aside>
+          <div class="square"></div>
+          <div class="accordeon-content">
+            <h3>Header</h3>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, illo!</div>
+          </div>
+        </label>
+
+        <input type="radio" name="accordeon" id="4_acc">
+        <label for="4_acc">
+          <aside></aside>
+          <div class="square"></div>
+        </label>
+
+        <input type="radio" name="accordeon" id="5_acc">
+        <label for="5_acc">
+          <aside></aside>
+          <div class="square"></div>
+        </label>
+      </form>
+    </div>
+    <form id="user-info">
+      <label for="email">Email: </label>
+      <input autocomplete="off" placeholder="example@mail.com" id="email" required type="email">
+      <br>
+      <label for="name">Name: </label>
+      <input placeholder="John" autocomplete="off" type="text" minlength="3" maxlength="30" required id="name">
+      <br>
+      <div class="centered-input">
+        <label for="color">Your favorite color: </label>
+        <input type="color" id="color">
+      </div>
+      <div class="centered-input">
+        <label style="font-size: larger;" for="checkbox">What do you want us to do</label>
+        <br>
+        <label for="checkbox1">Take a photo of you</label>
+        <input type="checkbox" name="checkbox" id="checkbox1">
+        <br>
+        <label for="checkbox2">Make a great photo of you</label>
+        <input type="checkbox" checked name="checkbox" id="checkbox2">
+        <br>
+        <label for="checkbox3">Make a cheap photo of you</label>
+        <input type="checkbox" name="checkbox" id="checkbox3">
+        <br>
+      </div>
+      <div class="submit">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+  </main>
+
+  <footer>
+    © | Copyright 2002-2022 licensed by Domnich Inc.
+  </footer>
+</body>
+
+</html>
